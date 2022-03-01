@@ -1,0 +1,13 @@
+body{
+    background:url(https://images.theconversation.com/files/295442/original/file-20191003-52796-1763ajl.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    background-color: rgb(255,80,80);
+    border:5px solid blue;
+}
+.notes{
+    background-color: rgb(100,230,70);
+    border: 4px solid aliceblue;
+}
