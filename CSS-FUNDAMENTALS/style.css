@@ -33,5 +33,18 @@ footer p{
 }
 .copyrigth{
   font-size: 2rem;
+  text-align: center;
   font-style: italic;
+}
+.footer{
+  border: 5px solid grey;
+}
+li:first-child{
+  color:red;
+}
+li:last-child{
+  background-color: aqua;
+}
+li:nth-child(2){
+  font-weight: bold;
 }
