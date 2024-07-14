@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Formulários</h1>
+  <form>
+    <fieldset>
+      <legend>Exemplo de formulário HTML5</legend>
+      <section> <label for="name" >Nome:</label>
+        <input type="text" id="name" placeholder="Fulano de tal" required /></section>
+     <section>
+      <label for="surname" >Sobre nome:</label>
+      <input type="text" id="surname" placeholder="da silva sauro" required />
+     </section>
+     <button>Submit</button>
+    </fieldset>
+    <fieldset>
+      <label for="opcoes">Selecione uma opção</label>
+      <select name="" id="opcoes">
+        <option value="opcao1">opcao1</option>
+        <option value="opcao2">opcao2</option>
+        <option value="opcao3">opcao3</option>
+      </select>
+      <label for="masculino">Masculino</label>
+      <input type="radio" name="sexo" id="masculino" value="masculino">
+      <label for="femininino">feminino</label>
+      <input type="radio" name="sexo" id="feminino" value="feminino">
+    </fieldset>
+    <fieldset>
+      <legend>Selecione a especie dos seus animais de estimação</legend>
+      <label for="cao">cão</label>
+      <input type="checkbox" name="animal" id="cao" value="cão">
+      <label for="gato">gato</label>
+      <input type="checkbox" name="animal" id="gato" value="gato">
+    </fieldset>
+    <pt>Para conectar um elemento com sua label o atributo for tem que ter o mesmo valor do id do elemento.</pt>
+  </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+h1{
+  color: orange;
+  background-color: black;  
+  font-style:italic;
+}
+ header p{   /*aplicou para todos os headers que possuem elementos p */
+  color:greenyellow;
+  line-height: 2px;
+  text-transform: capitalize;   
+}
+h2{
+  font-size: 50px;
+  font-weight: 900;
+  font-family: sans-serif; /* caso uma fonte não exista no sistema do usuário então a proxima opção sera escolhida ou alguma opção da mesma familia que exista no pc do usuário.*/
+
+}
+p{
+  line-height: 0.4rem; 
+}
+/*combinando seletores */
+h1,h2,h4,p,li{
+  font-family: sans-serif;
+}
+footer p{
+  font-size: 1.4rem;
+}
+/*id e classes */
+/*o id é usado para criar um estilo unico para um unico elemento */
+/* classe e usada para criar o estilo de um grupo de elmentos que possuem a mesma */
+
+#test{
+  color:red;
+}
+.copyrigth{
+  font-size: 2rem;
+  font-style: italic;
+}
