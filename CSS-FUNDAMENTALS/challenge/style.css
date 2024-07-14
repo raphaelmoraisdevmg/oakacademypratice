@@ -1,0 +1,44 @@
+body{
+  border: 5px solid grey;
+}
+header{
+  text-align: center;
+}
+a{
+  text-decoration: none ;
+}
+#price-box{
+  text-align: center;
+}
+img{
+  width: 600px;
+  height: 400px;
+}
+.price-tag{
+  color:red;
+}
+.button-box{
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+}
+button{
+  width: 150px;
+  height:50px;
+  background-color: black;
+  align-self: center;
+  color: white;
+  border-radius:15px ;
+  padding: 15px;
+}
+li:first-child, li:nth-child(3){
+  color:purple;
+}
+footer{
+  border-top: 3px solid rgba(100, 100, 100, 0.367);
+  padding: 15px;
+}
+.sign{
+  text-align: center;
+  color:rgba(100, 100, 100, 0.367)
+}
