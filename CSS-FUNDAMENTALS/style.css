@@ -1,3 +1,6 @@
+*{  /* seletor global */
+ color:rgba(150, 184, 255, 0.443)
+}
 h1{
   color: orange;
   background-color: black;  
@@ -20,6 +23,10 @@ p{
 /*combinando seletores */
 h1,h2,h4,p,li{
   font-family: sans-serif;
+}
+li{
+  color:blue !important;   /*fara com que a cor seja azul não importa a especificidade dos outros seletores que também selecionem esse elemento
+  deve-se evitar o uso.*/
 }
 footer p{
   font-size: 1.4rem;
