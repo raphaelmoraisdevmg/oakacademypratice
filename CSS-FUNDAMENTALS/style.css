@@ -55,3 +55,16 @@ li:last-child{
 li:nth-child(2){
   font-weight: bold;
 }
+/*padding and margin*/
+/*o padding define o tamanho do espaço entre o conteúdo de um elemento html e a borda do mesmo, enquanto que o margin define o espaço entre o elemento e o que tem em volta.*/
+.first-a{
+  border:3px solid red;
+  padding:10px 20px 30px 40px;
+  background-color: black;
+  margin:20px,40px;
+  color:white;
+}
+.secon-a{
+  border: 3px solid red;
+
+}
