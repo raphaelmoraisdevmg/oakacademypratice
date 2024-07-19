@@ -1,9 +1,13 @@
 *{  /* seletor global */
  color:rgba(150, 184, 255, 0.443)
 }
+.first-header{
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
 h1{
-  color: orange;
-  background-color: black;  
+  color: red;  
   font-style:italic;
 }
  header p{   /*aplicou para todos os headers que possuem elementos p */
